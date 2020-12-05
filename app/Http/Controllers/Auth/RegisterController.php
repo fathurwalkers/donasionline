@@ -78,6 +78,7 @@ class RegisterController extends Controller
         $name = 'null';
         $no_hp = 'null';
         $email = Str::random(12);
+        $email .= '@gmail.com';
         $password = Str::random(8);
         return User::create([
             'name' => $name,
