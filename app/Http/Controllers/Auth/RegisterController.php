@@ -85,6 +85,5 @@ class RegisterController extends Controller
             'email' => $email,
             'password' => Hash::make($password),
         ]);
-        // return redirect('/login');
     }
 }
