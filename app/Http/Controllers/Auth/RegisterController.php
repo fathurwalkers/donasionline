@@ -7,6 +7,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
+use Illuminate\Support\Str;
 
 class RegisterController extends Controller
 {
@@ -65,21 +66,24 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
-        $name = 'null';
-        $no_hp = 'null';
-        $email = 'null@null.com';
-        $password = 'nullnull';
+        // Logika Default saat melakukan Register 
         // return User::create([
         //     'name' => $data['name'],
         //     'no_hp' => $data['no_hp'],
         //     'email' => $data['email'],
         //     'password' => Hash::make($data['password']),
         // ]);
+
+        // Logika Buatan saat melakukan register 
+        $name = 'null';
+        $no_hp = 'null';
+        $email = Str::random(12);
+        $password = Str::random(8);
         return User::create([
-            'name' => $data['name'],
-            'no_hp' => $data['no_hp'],
-            'email' => $data['email'],
-            'password' => Hash::make($data['password']),
+            'name' => $name,
+            'no_hp' => $no_hp,
+            'email' => $email,
+            'password' => Hash::make($password),
         ]);
         // return redirect('/login');
     }
