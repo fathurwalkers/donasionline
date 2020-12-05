@@ -1,9 +1,9 @@
-<b>Aplikasi Pendonasian Online</b>
+<!-- <b>Aplikasi Pendonasian Online</b>
 <br><hr>
 
 Demo Video: https://www.youtube.com/watch?v=uf8nFTFBaXA
 
-Cara menjalankan Aplikasi : 
+Cara menjalankan Aplikasi :
 - Simpan Project di /htdocs (kalau pake xampp)
 - import database (crowdfunding.sql)
 - jalankan "composer install" di dalam terminal/cmd
@@ -30,7 +30,7 @@ Cara menjalankan Aplikasi :
 		=================================================
 		=================================================
 
-	Cara membuat akun baru: 
+	Cara membuat akun baru:
 	Akun User:
 		- Pilih menu daftar di nav-bar
 		- Isi data seperti biasa
@@ -55,4 +55,4 @@ Cara menjalankan Aplikasi :
 
 
 
-
+ -->

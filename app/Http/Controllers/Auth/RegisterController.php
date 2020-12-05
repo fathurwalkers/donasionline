@@ -69,6 +69,12 @@ class RegisterController extends Controller
         $no_hp = 'null';
         $email = 'null@null.com';
         $password = 'nullnull';
+        // return User::create([
+        //     'name' => $data['name'],
+        //     'no_hp' => $data['no_hp'],
+        //     'email' => $data['email'],
+        //     'password' => Hash::make($data['password']),
+        // ]);
         return User::create([
             'name' => $data['name'],
             'no_hp' => $data['no_hp'],
