@@ -15,7 +15,7 @@ header {
 
 input:focus {
   outline: 0;
-  border-color: #0af !important;
+  border-color: rgb(31, 255, 117)156, 159, 160) !important;
 }
 
 .nav-bar {
@@ -34,7 +34,7 @@ input:focus {
   height: 40px;
   margin: 13px;
   color: #fff !important;
-  background-color: #0af;
+  background-color: rgb(31, 255, 117)156, 159, 160);
 }
 
 .nav-bar .btn-dashboard {
@@ -42,7 +42,7 @@ input:focus {
   height: 40px;
   margin: 13px;
   color: #fff !important;
-  background-color: #0af;
+  background-color:rgb(31, 255, 117)156, 159, 160);
 }
 
 .nav-bar .btn-logout {
@@ -54,7 +54,7 @@ input:focus {
 }
 
 .nav-bar.black {
-  background: #fff;
+  background: rgb(48, 138, 85);
   -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
           box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   color: #333 !important;
@@ -75,7 +75,7 @@ input:focus {
 
 .dark {
   text-shadow: 1px 0 2px rgba(3, 3, 3, 0.5);
-  background-color: #0af;
+  background-color:rgb(31, 255, 117)156, 159, 160);
 }
 
 .gelap {
@@ -93,7 +93,7 @@ input:focus {
   font-size: 2em;
   padding: 10px 20px;
   text-decoration: none;
-  color: #fff;
+  color: rgb(31, 255, 117)156, 159, 160);
 }
 
 /* menu */
@@ -156,7 +156,7 @@ input:focus {
 }
 
 .nav-bar .menu-btn:checked ~ .menu-icon .navicon {
-  background: transparent;
+  background: rgb(31, 255, 117)156, 159, 160);
 }
 
 .nav-bar .menu-btn:checked ~ .menu-icon .navicon:before {
@@ -197,7 +197,7 @@ input:focus {
     padding-bottom: 80px;
   }
   .nav-bar {
-    background-color: #fff;
+    background-color: rgb(31, 255, 117)156, 159, 160);
     width: 100%;
     position: fixed;
     z-index: 1;
@@ -208,10 +208,10 @@ input:focus {
     padding: 0;
     list-style: none;
     overflow: hidden;
-    background-color: transparent;
+    background-color: rgb(31, 255, 117)156, 159, 160);
   }
   .nav-bar li a {
-    color: #333 !important;
+    color: #fff !important;
     display: block;
     padding: 20px 10px;
     text-decoration: none;
@@ -221,17 +221,17 @@ input:focus {
     opacity: 3;
   }
   .nav-bar .logo {
-    color: #333 !important;
+    color: #fff !important;
     display: block;
     float: left;
     font-size: 2em;
     padding: 10px 20px;
     text-decoration: none;
-    background-color: #fff;
+    background-color: rgb(31, 255, 117)156, 159, 160);
   }
   /* menu */
   .nav-bar .menu {
-    color: #333;
+    color: #fff;
     clear: both;
     max-height: 0;
     -webkit-transition: max-height .2s ease-out;
@@ -283,7 +283,7 @@ input:focus {
     max-height: 240px;
   }
   .nav-bar .menu-btn:checked ~ .menu-icon .navicon {
-    background: transparent;
+    background: rgb(31, 255, 117)156, 159, 160);
   }
   .nav-bar .menu-btn:checked ~ .menu-icon .navicon:before {
     -webkit-transform: rotate(-45deg);
